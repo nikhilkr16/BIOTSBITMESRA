@@ -43,7 +43,7 @@ const testimonials = [
   },
   {
     id: 6,
-    name: 'Ekika Kumari',
+    name: 'Ekika Kumar',
     role: 'Joint Secretary',
     message:
       'I am delighted and honored to be a part of such a cohesive and empowered team that we are at BIOTS. We are a community of passionate and driven individuals who bring out the best in one another. Together, we strive to foster creativity, push boundaries and collaborate to create an impact.',

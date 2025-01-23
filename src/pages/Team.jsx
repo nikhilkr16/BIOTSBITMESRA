@@ -79,7 +79,7 @@ function Team() {
         <TeamCardSmall
           src={'EkikaKumar_JointSec.jpg'}
           position={'JOINT SECRETARY'}
-          name={'Ekika Kumari'}
+          name={'Ekika Kumar'}
           link={'https://www.linkedin.com/in/ekika-kumar/'}
         />
         <TeamCardSmall
