@@ -4,6 +4,91 @@ const QuizEventCard = () => {
   return (
     <div className=" max-w-[90vw] space-y-6 mx-auto my-10">
       <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        {/* HERA PHERI PHIRSE */}
+        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="herapheriphirse.png"
+            alt="Invictus"
+            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
+            <div className="text-center">
+              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
+                HERA PHERI PHIRSE
+              </h2>
+              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
+                Hera Pheri Phirse is an exciting treasure hunt that challenges
+                participants to crack cryptic clues, navigate thrilling
+                adventures, and work as a team to uncover the treasure. It’s a
+                journey of exploration, perseverance, and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* FORENSIC MINDS */}
+        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="forensic_mind.jpg"
+            alt="Invictus"
+            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
+            <div className="text-center">
+              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
+                FORENSIC MINDS
+              </h2>
+              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
+                This interactive mystery event combines forensic science with 
+                puzzle-solving as teams work to uncover clues and solve a complex case. 
+                Participants will analyze evidence, decode messages, and piece together 
+                information to reveal the truth behind a carefully crafted mystery scenario.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* MIND CRAFT */}
+        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="MIND_CRAFT.png"
+            alt="Invictus"
+            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
+            <div className="text-center">
+              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
+                MIND CRAFT
+              </h2>
+              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
+                Mind Craft is a competition featuring three distinct challenge categories 
+                designed to test participants across different cognitive and creative skills.
+                Teams compete in sequential rounds that evaluate knowledge, technical aptitude, and creative expression.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* WEBINAR SESSION */}
+        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="ABHISHEK_CHOUDHARY.png"
+            alt="Invictus"
+            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
+            <div className="text-center">
+              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
+                WEBINAR SESSION
+              </h2>
+              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
+                An eye opening session on "Intellectual Property Right" that will empower you to protect your creations and enhance your business or personal brand. Featuring Mr. Abhishek Choudhury, an Indian Patent Agent and a serial entrepreneur and Mr. Nitesh Prasad - @corporate.wala.youtuber
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* INVICTUS CARD */}
         <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
           <img

@@ -14,7 +14,7 @@ const EventsSection = () => {
       <div className="main-event">
         <a href="events">
           <img
-            src="Bitotsav.jpg"
+            src="poster_luminaire.jpg"
             alt="Main Event"
             className="cursor-pointer w-3/5 mx-auto shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
           />
@@ -25,7 +25,7 @@ const EventsSection = () => {
           <div>
             <a href="events">
               <img
-                src="event1.jpg"
+                src="herapheriphirse.png"
                 alt="Sub Event 1"
                 className="ms:mb-4 sm:mb-8 lg:m-0 cursor-pointer w-fit h-full shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
               />
@@ -34,7 +34,7 @@ const EventsSection = () => {
           <div>
             <a href="events">
               <img
-                src="event2.jpg"
+                src="forensic_mind.jpg"
                 alt="Sub Event 2"
                 className="ms:mb-4 sm:mb-8 lg:m-0 cursor-pointer w-fit h-full shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
               />

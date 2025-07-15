@@ -10,6 +10,30 @@ function Gallery() {
 
       <div className="text-center my-8 ">
         <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-6 text-gray-800 relative inline-block">
+          Luminaire 2025
+          <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
+        </h2>
+      </div>
+      <div className="overflow-hidden ms:columns-1 ms:gap-4 ms:px-6 ff:columns-2 ff:gap-4 ff:px-6 tb:columns-3 tb:gap-6 tb:px-8 lg:columns-4 lg:gap-6 lg:px-10">
+        {images.Luminaire25.map((image) => (
+          <GalleryCard key={image.id} src={image.src} />
+        ))}
+      </div>
+
+      <div className="text-center my-8 ">
+        <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-6 text-gray-800 relative inline-block">
+          Hera Pheri Phirse 2025
+          <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
+        </h2>
+      </div>
+      <div className="overflow-hidden ms:columns-1 ms:gap-4 ms:px-6 ff:columns-2 ff:gap-4 ff:px-6 tb:columns-3 tb:gap-6 tb:px-8 lg:columns-4 lg:gap-6 lg:px-10">
+        {images.HeraPheriPhirse.map((image) => (
+          <GalleryCard key={image.id} src={image.src} />
+        ))}
+      </div>
+
+      <div className="text-center my-8 ">
+        <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-6 text-gray-800 relative inline-block">
           Pantheon 2024
           <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
         </h2>

@@ -3,7 +3,16 @@ import React from 'react'
 function Timeline() {
   const timelineData = [
     {
-      id: 1,
+      id: 4,
+      title: 'LUMINAIRE',
+      description:
+        "Luminaire, the flagship event of BIOTS Club, BIT Mesra was organized during 25th-26th Jan, encompassing thrilling events such as Forensic Minds and Mind Craft and Insightful Webinar Sessions with Mr. Abhishek Choudhary and Nitish Prasad.",
+      image: 'IC_Poster.png',
+      bgColor: 'bg-gray-500',
+      textColor: 'text-white',
+    },
+    {
+      id: 3,
       title: 'INDUSTRIAL VISIT',
       description:
         'The industrial visit organized by the Society of Biotechnologists to Sudha Dairy, Ranchi was full of valuable insights into the dairy production process and sampling of fresh dairy products.',
@@ -21,7 +30,7 @@ function Timeline() {
       textColor: 'text-white',
     },
     {
-      id: 3,
+      id: 1,
       title: 'WEBINAR SESSION',
       description:
         'The session with Mr. Rahul Thakur was packed with insights and understanding. His guidance and mentorship were truly invaluable for all the students.',

@@ -111,6 +111,53 @@ import image97 from "../assets/gallery/97.jpg";
 import image98 from "../assets/gallery/98.jpg";
 import image99 from "../assets/gallery/99.jpg";
 
+// Luminaire-25: Images 100-131
+import image100 from "../assets/gallery/100.jpg";
+import image101 from "../assets/gallery/101.jpg";
+import image102 from "../assets/gallery/102.jpg";
+import image103 from "../assets/gallery/103.jpg";
+import image104 from "../assets/gallery/104.jpg";
+import image105 from "../assets/gallery/105.jpg";
+import image106 from "../assets/gallery/106.jpg";
+import image107 from "../assets/gallery/107.jpg";
+import image108 from "../assets/gallery/108.jpg";
+import image109 from "../assets/gallery/109.jpg";
+import image110 from "../assets/gallery/110.jpg";
+import image111 from "../assets/gallery/111.jpg";
+import image112 from "../assets/gallery/112.jpg";
+import image113 from "../assets/gallery/113.jpg";
+import image114 from "../assets/gallery/114.jpg";
+import image115 from "../assets/gallery/115.jpg";
+import image116 from "../assets/gallery/116.jpg";
+import image117 from "../assets/gallery/117.jpg";
+import image118 from "../assets/gallery/118.jpg";
+import image119 from "../assets/gallery/119.jpg";
+import image120 from "../assets/gallery/120.jpg";
+import image121 from "../assets/gallery/121.jpg";
+import image122 from "../assets/gallery/122.jpg";
+import image123 from "../assets/gallery/123.jpg";
+import image124 from "../assets/gallery/124.jpg";
+import image125 from "../assets/gallery/125.jpg";
+import image126 from "../assets/gallery/126.jpg";
+import image127 from "../assets/gallery/127.jpg";
+import image128 from "../assets/gallery/128.jpg";
+import image129 from "../assets/gallery/129.jpg";
+import image130 from "../assets/gallery/130.jpg";
+import image131 from "../assets/gallery/131.jpg";
+
+// HeraPheriPhirse: Images 132-142
+import image132 from "../assets/gallery/132.jpg";
+import image133 from "../assets/gallery/133.jpg";
+import image134 from "../assets/gallery/134.jpg";
+import image135 from "../assets/gallery/135.jpg";
+import image136 from "../assets/gallery/136.jpg";
+import image137 from "../assets/gallery/137.jpg";
+import image138 from "../assets/gallery/138.jpg";
+import image139 from "../assets/gallery/139.jpg";
+import image140 from "../assets/gallery/140.jpg";
+import image141 from "../assets/gallery/141.jpg";
+import image142 from "../assets/gallery/142.jpg";
+
 const IndustrialVisitImages = [];
 const InvictusImages = [];
 const Pantheon24Images = [];
@@ -118,6 +165,8 @@ const PhirHeraPheriImages = [];
 const SpinTheWheelImages = [];
 const WebinarSession = [];
 const WikiWars = [];
+const Luminaire25 = [];
+const HeraPheriPhirse = [];
 
 // IndustrialVisit: Images 1-15
 IndustrialVisitImages.push(
@@ -246,6 +295,57 @@ WikiWars.push(
   { id: 99, src: image99 }
 );
 
+// Luminaire 25: Images 100-131
+Luminaire25.push(
+  { id: 100, src: image100 },
+  { id: 101, src: image101 },
+  { id: 102, src: image102 },
+  { id: 103, src: image103 },
+  { id: 104, src: image104 },
+  { id: 105, src: image105 },
+  { id: 106, src: image106 },
+  { id: 107, src: image107 },
+  { id: 108, src: image108 },
+  { id: 109, src: image109 },
+  { id: 110, src: image110 },
+  { id: 111, src: image111 },
+  { id: 112, src: image112 },
+  { id: 113, src: image113 },
+  { id: 114, src: image114 },
+  { id: 115, src: image115 },
+  { id: 116, src: image116 },
+  { id: 117, src: image117 },
+  { id: 118, src: image118 },
+  { id: 119, src: image119 },
+  { id: 120, src: image120 },
+  { id: 121, src: image121 },
+  { id: 122, src: image122 },
+  { id: 123, src: image123 },
+  { id: 124, src: image124 },
+  { id: 125, src: image125 },
+  { id: 126, src: image126 },
+  { id: 127, src: image127 },
+  { id: 128, src: image128 },
+  { id: 129, src: image129 },
+  { id: 130, src: image130 },
+  { id: 131, src: image131 }
+);
+
+// Hera Pheri Phirse: Images 132-142
+HeraPheriPhirse.push(
+  { id: 132, src: image132 },
+  { id: 133, src: image133 },
+  { id: 134, src: image134 },
+  { id: 135, src: image135 },
+  { id: 136, src: image136 },
+  { id: 137, src: image137 },
+  { id: 138, src: image138 },
+  { id: 139, src: image139 },
+  { id: 140, src: image140 },
+  { id: 141, src: image141 },
+  { id: 142, src: image142 }
+);
+
 export {
   IndustrialVisitImages,
   InvictusImages,
@@ -254,4 +354,6 @@ export {
   SpinTheWheelImages,
   WebinarSession,
   WikiWars,
+  Luminaire25,
+  HeraPheriPhirse
 };
