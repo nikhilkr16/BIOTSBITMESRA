@@ -1,6 +1,6 @@
 import React from 'react'
 
-const QuizEventCard = () => {
+const EventCard = () => {
   return (
     <div className=" max-w-[90vw] space-y-6 mx-auto my-10">
       <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -9,7 +9,7 @@ const QuizEventCard = () => {
         <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
           <img
             src="herapheriphirse.png"
-            alt="Invictus"
+            alt="hera-pheri-phirse"
             className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
@@ -27,11 +27,32 @@ const QuizEventCard = () => {
           </div>
         </div>
 
+        {/* LOL CHALLENGE */}
+        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="lol_challenge.png"
+            alt="lol-challenge"
+            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
+            <div className="text-center">
+              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
+                THE LOL CHALLENGE
+              </h2>
+              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
+                The LOL Challenge is where comedy, creativity, and chaos collide! From hilarious 
+                On-the-spot creation to meme-worthy marketing madness, this is your chance to dodge, 
+                outlive, and outshine the competition.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* FORENSIC MINDS */}
         <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
           <img
             src="forensic_mind.jpg"
-            alt="Invictus"
+            alt="forensic-mind"
             className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
@@ -53,7 +74,7 @@ const QuizEventCard = () => {
         <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
           <img
             src="MIND_CRAFT.png"
-            alt="Invictus"
+            alt="mind-craft"
             className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
@@ -65,25 +86,6 @@ const QuizEventCard = () => {
                 Mind Craft is a competition featuring three distinct challenge categories 
                 designed to test participants across different cognitive and creative skills.
                 Teams compete in sequential rounds that evaluate knowledge, technical aptitude, and creative expression.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* WEBINAR SESSION */}
-        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="ABHISHEK_CHOUDHARY.png"
-            alt="Invictus"
-            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
-            <div className="text-center">
-              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
-                WEBINAR SESSION
-              </h2>
-              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                An eye opening session on "Intellectual Property Right" that will empower you to protect your creations and enhance your business or personal brand. Featuring Mr. Abhishek Choudhury, an Indian Patent Agent and a serial entrepreneur and Mr. Nitesh Prasad - @corporate.wala.youtuber
               </p>
             </div>
           </div>
@@ -127,30 +129,6 @@ const QuizEventCard = () => {
                 Wiki Wars is a fast-paced game where players navigate Wikipedia
                 pages, using links to reach a target page in the fewest clicks
                 and within a limited time, without using a keyboard.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* MITACS WEBINAR CARD */}
-        <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="MITACS Webinar.jpg"
-            alt="MITACS Webinar"
-            className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
-            <div className="text-center">
-              <h2 className="ms:text-sm ml:text-md ff:text-lg sm:text-xl tb:text-2xl font-bold">
-                MITACS-WEBINAR
-              </h2>
-              <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                The Mitacs Webinar, organized by BIOTS, provided insights into
-                the Mitacs Globalink Research Internship, funded by the Canadian
-                government. It guided students on research experiences, skill
-                development, and global collaborations, while mentoring them on
-                applying for the internship to enhance their academic and
-                analytical abilities.
               </p>
             </div>
           </div>
@@ -225,4 +203,4 @@ const QuizEventCard = () => {
   )
 }
 
-export default QuizEventCard
+export default EventCard

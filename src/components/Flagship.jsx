@@ -1,13 +1,11 @@
-import React from "react";
-
 const FlagshipCard = () => {
   return (
     <div className="mx-8">
-      <div className="relative group ms:w-fit xl:w-max xl:h-auto rounded-lg overflow-hidden shadow-lg mx-auto mb-10">
+      <div className="relative group ms:w-fit xl:w-8/10 txl:w-max txl:h-auto rounded-lg overflow-hidden shadow-lg mx-auto mb-10">
         <img
           src="poster_luminaire.jpg"
           alt="Card Image"
-          className="xl:w-max xl:h-svh object-cover transition-all duration-300 sm:group-hover:blur-sm"
+          className="txl:w-max txl:h-svh object-cover transition-all duration-300 sm:group-hover:blur-sm"
         />
 
         <div className="sm:absolute inset-0 flex items-center justify-center sm:bg-black sm:bg-opacity-50 sm:text-white sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-300 p-4">
