@@ -1,5 +1,3 @@
-import React from 'react'
-
 const EventCard = () => {
   return (
     <div className=" max-w-[90vw] space-y-6 mx-auto my-10">
