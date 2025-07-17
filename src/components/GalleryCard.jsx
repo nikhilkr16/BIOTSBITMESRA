@@ -1,7 +1,6 @@
 import Modal from "react-modal";
-import { useState } from "react";
-import { useEffect } from "react";
-
+import { useState, useEffect, Suspense } from "react";
+import LazyImage from "./LazyImage";
 import useClickOutside from "../hooks/useClickOutside";
 
 const customStyles = {
@@ -21,14 +20,20 @@ const customStyles = {
 
 Modal.setAppElement(document.getElementById("root"));
 
-function GalleryCard({ src }) {
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(false); // State to check screen size
+// Loading skeleton for modal
+const ModalImageSkeleton = () => (
+  <div className="mx-auto bg-gray-200 animate-pulse max-h-[100%] max-w-[100%] flex items-center justify-center min-h-[50vh]">
+    <div className="w-12 h-12 border-4 border-gray-400 border-t-transparent rounded-full animate-spin"></div>
+  </div>
+);
 
-  // Custom hook or useEffect to set screen size
+function GalleryCard({ imageData }) {
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
+
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsDesktop(window.innerWidth >= 540); // Use `md` breakpoint for Tailwind
+      setIsDesktop(window.innerWidth >= 540);
     };
 
     checkScreenSize();
@@ -44,7 +49,7 @@ function GalleryCard({ src }) {
   }
 
   function afterOpenModal() {
-    subtitle.color = "#f00";
+    // subtitle.color = "#f00"; // This seems to be from old code, remove if not needed
   }
 
   const dropRef = useClickOutside(() => setIsOpen(false));
@@ -56,21 +61,28 @@ function GalleryCard({ src }) {
           <Modal
             isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
-            onRequestClose={dropRef}
+            onRequestClose={() => setIsOpen(false)}
             style={customStyles}
-            contentLabel="Example Modal"
+            contentLabel="Gallery Image Modal"
             className="modal-card bg-black bg-opacity-50 backdrop-blur-sm rounded-xl p-5"
             overlayClassName="modal-overlay fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center"
           >
-            <img
-              src={src}
-              className="mx-auto object-contain max-h-[100%] max-w-[100%]"
-            />
+            <Suspense fallback={<ModalImageSkeleton />}>
+              <LazyImage
+                imageData={imageData}
+                className="mx-auto object-contain max-h-[100%] max-w-[100%]"
+                alt={`Gallery image ${imageData.id}`}
+              />
+            </Suspense>
           </Modal>
         )}
       </div>
 
-      <img src={src} className="w-full rounded-md" />
+      <LazyImage
+        imageData={imageData}
+        className="w-full rounded-md"
+        alt={`Gallery thumbnail ${imageData.id}`}
+      />
     </div>
   );
 }
