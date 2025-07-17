@@ -5,7 +5,10 @@ const sponsors = [
   { imgUrl: "givemycert.png", Name: "GiveMyCertificate" },
   { imgUrl: "wafflicious.png", Name: "Wafflicious" },
   { imgUrl: "balaji.png", Name: "Balaji Waffers" },
-  { imgUrl: "easydiner.png", Name: "EasyDiner" },
+  { imgUrl: "graphtal.png", Name: "Graphtal.com" },
+  { imgUrl: "apss.png", Name: "AP Sales & Services" },
+  { imgUrl: "sam.png", Name: "SAM Air Products & Equipments" },
+  { imgUrl: "thermo.png", Name: "Thermo Fisher" },
 ];
 
 const SponsorMarquee = () => {
