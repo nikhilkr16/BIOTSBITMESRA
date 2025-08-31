@@ -3,117 +3,149 @@ import React, { useState } from 'react'
 const testimonials = [
   {
     id: 1,
-    name: 'Aditi Singh',
-    role: 'President',
+    name: "Ritik Raj",
+    role: "President",
     message:
-      'As the President of BIOTS, I am honored to lead a team dedicated to innovation, collaboration, and growth. Our club fosters a vibrant community where students explore their passions, gain skills, and make meaningful contributions. Together, we aim to inspire, empower, and achieve excellence, creating lasting impacts within and beyond our campus.',
-    image: 'AditiSingh_President.png',
+      "As the President of the Finance Club, it is my greatest honor to manage a team of 100+ members. The solidarity between every member of the association is something we are really proud of. Through workshops, interactive events, and collaborative projects, we strive to make learning both engaging and meaningful. This club feels like a second family, with supportive seniors, encouraging peers, and juniors who feel like close companions.",
+    image: "pres.png",
   },
   {
     id: 2,
-    name: 'Chinmay Ajit Patade',
-    role: 'Joint President',
+    name: "Komal Rani",
+    role: "Vice President",
     message:
-      'It was a great pleasure to lead and learn with the team of BIOTS, which has exhibited its team spirit from time to time. Under the invaluable guidance of esteemed alumni and faculty advisors, the club has flourished over the period of a few years. BIOTS has the potential to become one of the most representable clubs of BIT Mesra. It will serve as a guiding light for those navigating their careers in biotechnology and beyond. Striking the right balance of fun and learning, it has successfully conquered the minds at BIT and we hope to continue doing so!',
-    image: 'CHINMAYPATADE_JointPresident.jpg',
+      "As the Vice President of BIOTS, I am privileged to support and work alongside a talented team committed to innovation, collaboration, and growth. The club provides a dynamic platform for students to explore their interests, develop skills, and contribute meaningfully. Together, we strive to inspire, empower, and drive excellence, creating a lasting impact within and beyond our campus.",
+    image: "vice_pres.jpg",
   },
   {
     id: 3,
-    name: 'Ayush Kumar',
-    role: 'Vice President',
+    name: "Muaaz Murshid",
+    role: "Director of Media Development",
     message:
-      'As the Vice President of Biots Club, BIT Mesra, I am passionate about advancing the frontiers of biotechnology and fostering a collaborative environment for students to explore innovative solutions. My role involves organizing events, workshops, and collaborative projects aimed at enhancing technical knowledge and practical skills in biotechnology. I am dedicated to making the Biots Club a platform for learning, creativity, and professional growth for all its members.',
-    image: 'AyushKumar_VicePres.jpg',
+      "I am the Director of Media at BIOTS , where I channel my passion for creativity into designing engaging visuals, innovative content, and impactful media that truly represents our community.",
+    image: "dir_of_med_dev.jpeg",
   },
   {
     id: 4,
-    name: 'Aryan Raj',
-    role: 'Technical Head',
+    name: "Sanjana Kumari",
+    role: "Director of Content Development",
     message:
-      "As the Technical Head of BIOTS Club, I oversee and guide the technical endeavors of our team, ensuring excellence in managing our digital platforms, including the website. My role is to mentor the technical team, foster innovation, and maintain a robust online presence that reflects our club's vision and commitment to biotechnology advancements.",
-    image: 'AryanRajsaxena_TechHead.jpg',
+      "I am the Director of Content Development in the Biotechnology Technical Club. My role involves creating and organizing technical content for seminars, workshops, and events. This experience has enhanced my understanding of biotechnology while strengthening my skills in technical writing, teamwork, and leadership.",
+    image: "dir_of_cont_dev.jpg",
   },
   {
     id: 5,
-    name: 'Ritik Raj',
-    role: 'General Secretary',
+    name: "Divya Barnwal",
+    role: "Director of Communications & Public Relations",
     message:
-      'As the General Secretary of BIOTS Club, I am honored to lead a vibrant community of 75+ enthusiastic members. Through workshops, interactive events, and collaborative projects, we strive to make learning both engaging and meaningful. This club feels like a second family, with supportive seniors, encouraging peers, and juniors who feel like close companions.',
-    image: 'RitikRaj_GenSec.jpg',
+      "As the Director of Communication and Public Relations at the Biots Club, I manage internal and external communications, oversee branding, and promote events through strategic outreach. My role involves building industry and academic connections, creating impactful content, and ensuring smooth coordination among members, thereby strengthening the club’s presence and engagement within the student and professional community.",
+    image: "dir_of_comm_and_pub_rel.jpg",
   },
   {
     id: 6,
-    name: 'Ekika Kumar',
-    role: 'Joint Secretary',
+    name: "Prathama Barman",
+    role: "General Secretary",
     message:
-      'I am delighted and honored to be a part of such a cohesive and empowered team that we are at BIOTS. We are a community of passionate and driven individuals who bring out the best in one another. Together, we strive to foster creativity, push boundaries and collaborate to create an impact.',
-    image: 'EkikaKumar_JointSec.jpg',
+      "As one of the general secretaries of the BIOTS club, it will allow me to channel my dedication, leadership, and passion for this club and also strengthening our community. With a commitment to teamwork and effective coordination, I aim to ensure smooth functioning of the club while creating engaging opportunities for every member to grow and contribute.",
+    image: "gen_sec1.jpg",
   },
   {
     id: 7,
-    name: 'Aditya Ingale',
-    role: 'Treasurer',
+    name: "Aman Sharma",
+    role: "General Secretary",
     message:
-      'As the treasurer of Biots, it has been my honor to work alongside all the members who have now become a family. This club brings biology to life through fun and creative activities, making every moment engaging and memorable. Biots is truly a rollercoaster of emotions, where you’ll find some of the best peers of your undergraduate journey.',
-    image: 'AdityaIngale_Treasurer.jpg',
+      "As the General Secretary of the BIOTS Club, I feel privileged to guide a community that thrives on curiosity and collaboration. Our workshops, hands-on sessions, and interactive events are designed to spark interest and make learning an enjoyable journey. What makes this club truly special is the bond we share seniors who mentor selflessly, peers who motivate one another, and juniors who bring fresh energy and warmth, making the club feel like a close-knit family.",
+    image: "gen_sec2.jpg",
   },
   {
     id: 8,
-    name: 'Komal Rani',
-    role: 'Event Coordinator',
+    name: "Ronit Rawani",
+    role: "Joint Secretary",
     message:
-      "I have been actively involved in organizing events for the BIOTS Club. I help plan and manage different activities, work with the team, and make sure everything runs smoothly. My efforts aim to create meaningful and engaging events that bring our club members together and support the club's goals.",
-    image: 'KomalRani_EventCoord.jpg',
-  },
-  {
-    id: 8,
-    name: 'Harsh Verma',
-    role: 'Creative Coordinator',
-    message:
-      'As the Creative Coordinator of BIOTS Club, I bring ideas to life through engaging designs and innovative content. From conceptualizing event themes to curating our visual identity, my role is to ensure every creative aspect resonates with the spirit of our club, inspiring members and showcasing the endless possibilities of biotechnology.',
-    image: 'HarshVerma_CreativeCoord.jpg',
+      "As Joint Secretary of BIOTS, BIT Mesra, I have had the opportunity to contribute to the club’s growth while developing leadership and teamwork skills. With constant support from faculty and alumni, we strive to create a platform that blends knowledge, creativity, and collaboration, empowering students to explore biotechnology and prepare for impactful careers.",
+    image: "joint_sec1.jpg",
   },
   {
     id: 9,
-    name: 'Muaaz Murshid',
-    role: 'Creative Coordinator',
+    name: "Sakshi Shyama",
+    role: "Joint Secretary",
     message:
-      'As the Creative Coordinator of BIOTS Club, I blend creativity with strategy to craft designs that captivate and communicate our vision. From event posters to innovative branding, I ensure every visual element enhances our identity. With attention to detail and a passion for fresh ideas, I aim to make our club stand out creatively and inspire our audience.',
-    image: 'MuaazMurshid_CreativeCoord.jpeg',
+      "As the Joint Secretary of the BIOTS Club , I'm committed to contributing to a community that blends science , creativity and teamwork ",
+    image: "joint_sec2.jpg",
   },
   {
     id: 10,
-    name: 'Nikhil Kumar',
-    role: 'Technical Coordinator',
+    name: "Purushottam Kumar",
+    role: "Treasurer",
     message:
-      "As the Technical Coordinator of BIOTS Club, I take pride in managing our club's digital presence, including our website and technical resources. My role involves ensuring seamless communication and accessibility for all members. Through constant updates and innovations, I aim to make our online platform a hub for knowledge, collaboration, and growth in biotechnology",
-    image: 'NikhilKumar_TechCord.png',
+      "As Treasurer of BIOTS, I ensure our ideas are supported with the right resources. My role goes beyond managing funds—it’s about enabling innovation, teamwork, and opportunities for every member. Together, we strive to grow as individuals and as a community, building a culture of excellence and shared success.",
+    image: "tres.jpg",
   },
   {
     id: 11,
-    name: 'Saket Kumar',
-    role: 'Executive Member',
+    name: "Shubhayu Mukherjee",
+    role: "Joint Treasurer",
     message:
-      'As a member of the BIOTS Club, I have had the opportunity to engage in a unique interdisciplinary environment where science, technology, and societal impact converge. My involvement with the BIOTS Club has allowed me to explore cutting-edge topics in science, organization management and being member of a family.',
-    image: 'SaketKumar_ExeMember.jpg',
+      "Shubhayu Mukherjee, Joint Treasurer at BIT Mesra, combines financial management skills with a strong background in entrepreneurship. With experience leading startups and innovative projects, he excels in problem-solving, resource allocation, and strategic planning, ensuring impactful contributions to organizational and entrepreneurial initiatives.",
+    image: "joint_tres.jpg",
   },
   {
     id: 12,
-    name: 'Sanjana Kumari',
-    role: 'Executive Member',
+    name: "Shruti Suman",
+    role: "Head of Event Operations",
     message:
-      'I had volunteered for Hera Pheri, Spin the Wheel, and Wiki Wars, all of which had an excellent turnout and were highly engaging games. My efforts contributed to ensuring the smooth execution of these activities and enhancing the overall experience for the participants. It was truly fulfilling to be part of such an exciting and well-received set of events.',
-    image: 'SanjanaKumari_ExeMember.jpg',
+      "As Head of Event Operations, I strive to transform ideas into vibrant events that inspire, connect, and energize our members as well as participants. My focus is on creating memorable experiences that unite the BIOTS Club and drive our vision forward.",
+    image: "head_of_event_ops.jpg",
   },
   {
     id: 13,
-    name: 'Adya Pandey',
-    role: 'Executive Member',
+    name: "Apurva Aryan",
+    role: "Head of Creative Production",
     message:
-      'My time as an executive member of Biots was incredibly rewarding. I honed crucial leadership, communication, and organizational skills while collaborating with a talented team. The club fostered my passions, pushed me beyond my limits, and enabled me to contribute positively to campus life. I am thankful for the personal and professional growth this experience facilitated.',
-    image: 'AdyaPandey_ExeMember.jpg',
+      "I bring visions to life where form meets emotion and strategy dances with imagination. Guided by the belief that “Design is intelligence made visible,” I craft narratives through aesthetics that resonate deeply. My leadership blends innovation with intention, creating experiences that not only look good—but feel unforgettable. “Creativity is my language, design is my voice.”",
+    image: "head_of_creat_prod.jpg",
   },
-]
+  {
+    id: 14,
+    name: "Tanish Gupta",
+    role: "Head of Editorial Content",
+    message:
+      "Hi, I’m Tanish Gupta, Head of Editorial Content at BIOTS Club, BIT Mesra. I lead our content team in creating articles and features that highlight the club’s activities, under the guidance of the Director of Content Development. Outside BIOTS, I enjoy reading novels, articles, and research papers, while pursuing my B.Tech in Biotechnology.",
+    image: "head_of_edit_cont.jpg",
+  },
+  {
+    id: 15,
+    name: "Purnendu",
+    role: "Head Webmaster",
+    message:
+      "Since 2024, when I joined this club, I have learnt a lot from my seniors as well as my fellow members, about collaborating in teams and volunteering, as well as strengthening my own knowledge in the fields of Design and Web Development.",
+    image: "head_webm.jpg",
+  },
+  {
+    id: 16,
+    name: "Kanak Khadikar",
+    role: "Head of Sponsorship and Partnerships",
+    message:
+      "As Head of Sponsorships and Partnerships, I focus on building strong corporate relations and securing meaningful collaborations that add value to both partners and our organization. My role involves strategizing sponsorship opportunities, negotiating deals, and ensuring mutually beneficial outcomes that drive growth, engagement, and long-term associations while enhancing the overall impact of our initiatives.",
+    image: "head_of_spons_and_part.jpg",
+  },
+  {
+    id: 17,
+    name: "Komal Kumari",
+    role: "Head of Public Engagement",
+    message:
+      "As Head of Public Engagement at BIOTS, I am committed to fostering collaboration and meaningful connections. BIOTS represents innovation, growth, and impact, and I am proud to contribute to its mission of empowering individuals and communities to achieve excellence together.",
+    image: "head_of_pub_eng.jpg",
+  },
+  {
+    id: 18,
+    name: "Sanjana Kumari",
+    role: "Executive Member",
+    message:
+      "I am an executive member of the Biotechnology Club, where I have actively contributed to organizing various events. Some of the events I helped with include Phir Hera Pheri and Wiki Wars. Being part of the club has given me valuable experience in teamwork, event management, and leadership. It has been a great opportunity to engage with fellow members and promote interest in biotechnology.",
+    image: "exec_mem.jpg",
+  },
+];
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0)

@@ -127,10 +127,10 @@ function Footer() {
             </div>
           </div>
           <div>
-            <p className="font-bold">Aditi Arun Singh</p>
+            <p className="font-bold">Ritik Raj</p>
             <p>PRESIDENT</p>
             <a
-              href="https://www.linkedin.com/in/aditi-singh-3a5ba524b/"
+              href="https://www.linkedin.com/in/ritikraj0005/"
               className="flex gap-2"
               target="_blank"
               rel="noreferrer"
@@ -174,16 +174,15 @@ function Footer() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-
-              <p>aditisingh974862@gmail.com</p>
+              <p>btech10582.22@bitmesra.ac.in</p>
             </div>
           </div>
           <div>
-            <p className="font-bold">Chinmay Ajit Patade</p>
+            <p className="font-bold">Ekika Kumar</p>
             <p>JOINT PRESIDENT</p>
             <p>
               <a
-                href="https://www.linkedin.com/in/chinmay-patade-9a9b06222/"
+                href=""
                 className="flex gap-2"
                 target="_blank"
                 rel="noreferrer"
@@ -215,30 +214,13 @@ function Footer() {
                 <p>LinkedIn</p>
               </a>
             </p>
-            <div className="flex gap-2 ">
-              <svg
-                class="h-4 w-4 text-gray-400"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
-
-              <p>chinmaypatade04@gmail.com</p>
-            </div>
           </div>
           <div>
-            <p className="font-bold">Ritik Raj</p>
+            <p className="font-bold">Prathama Barman</p>
             <p>GENERAL SECRETARY</p>
             <p>
               <a
-                href="https://www.linkedin.com/in/ritikraj0005"
+                href=""
                 className="flex gap-2"
                 target="_blank"
                 rel="noreferrer"
@@ -284,7 +266,7 @@ function Footer() {
                 />
               </svg>
 
-              <p>btech10582.22@bitmesra.ac.in</p>
+              <p>prathamabarman@gmail.com</p>
             </div>
           </div>
         </div>
