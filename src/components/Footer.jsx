@@ -257,7 +257,7 @@ function Footer() {
             <p>GENERAL SECRETARY</p>
             <p>
               <a
-                href=""
+                href="https://www.linkedin.com/in/prathama-barman-bb3bb22b0/"
                 className="flex gap-2"
                 target="_blank"
                 rel="noreferrer"
