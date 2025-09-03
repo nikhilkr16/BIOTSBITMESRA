@@ -47,7 +47,7 @@ function Navbar() {
             <a href="home">BIOTS</a>
           </div>
           <div className="ms:text-xs tb:text-base font-medium">
-            <a href="home">SOCIETY OF BIOTECHNOLOGISTS</a>
+            <a href="home">SOCIETY FOR BIOTECHNOLOGY & BIOENGINEERING</a>
           </div>
         </div>
       </div>

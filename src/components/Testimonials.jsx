@@ -6,11 +6,18 @@ const testimonials = [
     name: "Ritik Raj",
     role: "President",
     message:
-      "As the President of the Finance Club, it is my greatest honor to manage a team of 100+ members. The solidarity between every member of the association is something we are really proud of. Through workshops, interactive events, and collaborative projects, we strive to make learning both engaging and meaningful. This club feels like a second family, with supportive seniors, encouraging peers, and juniors who feel like close companions.",
+      "As the President of the BIOTS Club, it is my greatest honor to manage a team of 100+ members. The solidarity between every member of the association is something we are really proud of. Through workshops, interactive events, and collaborative projects, we strive to make learning both engaging and meaningful. This club feels like a second family, with supportive seniors, encouraging peers, and juniors who feel like close companions.",
     image: "pres.png",
   },
   {
     id: 2,
+    name: "Ekika Kumar",
+    role: "Vice President",
+    message: "I am delighted and honored to be a part of  such a cohesive and empowered team of passionate and driven individuals. At BIOTS, we bring out the best in one another - fostering creativity, pushing boundaries and collaborating with purpose. The drive to turn ideas into impact is what sets us apart. It is inspiring to be part of a community where innovation and collaboration go hand in hand.",
+    image: "EkikaKumar_JointSec.jpg",
+  },
+  {
+    id: 3,
     name: "Komal Rani",
     role: "Vice President",
     message:
@@ -18,7 +25,7 @@ const testimonials = [
     image: "vice_pres.jpg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Muaaz Murshid",
     role: "Director of Media Development",
     message:
@@ -26,15 +33,15 @@ const testimonials = [
     image: "dir_of_med_dev.jpeg",
   },
   {
-    id: 4,
+    id: 5,
     name: "Sanjana Kumari",
     role: "Director of Content Development",
     message:
-      "I am the Director of Content Development in the Biotechnology Technical Club. My role involves creating and organizing technical content for seminars, workshops, and events. This experience has enhanced my understanding of biotechnology while strengthening my skills in technical writing, teamwork, and leadership.",
+      "I am the Director of Content Development in the BIOTS Club. My role involves creating and organizing technical content for seminars, workshops, and events. This experience has enhanced my understanding of biotechnology while strengthening my skills in technical writing, teamwork, and leadership.",
     image: "dir_of_cont_dev.jpg",
   },
   {
-    id: 5,
+    id: 6,
     name: "Divya Barnwal",
     role: "Director of Communications & Public Relations",
     message:
@@ -42,7 +49,7 @@ const testimonials = [
     image: "dir_of_comm_and_pub_rel.jpg",
   },
   {
-    id: 6,
+    id: 7,
     name: "Prathama Barman",
     role: "General Secretary",
     message:
@@ -50,7 +57,7 @@ const testimonials = [
     image: "gen_sec1.jpg",
   },
   {
-    id: 7,
+    id: 8,
     name: "Aman Sharma",
     role: "General Secretary",
     message:
@@ -58,7 +65,7 @@ const testimonials = [
     image: "gen_sec2.jpg",
   },
   {
-    id: 8,
+    id: 9,
     name: "Ronit Rawani",
     role: "Joint Secretary",
     message:
@@ -66,7 +73,7 @@ const testimonials = [
     image: "joint_sec1.jpg",
   },
   {
-    id: 9,
+    id: 10,
     name: "Sakshi Shyama",
     role: "Joint Secretary",
     message:
@@ -74,7 +81,7 @@ const testimonials = [
     image: "joint_sec2.jpg",
   },
   {
-    id: 10,
+    id: 11,
     name: "Purushottam Kumar",
     role: "Treasurer",
     message:
@@ -82,7 +89,7 @@ const testimonials = [
     image: "tres.jpg",
   },
   {
-    id: 11,
+    id: 12,
     name: "Shubhayu Mukherjee",
     role: "Joint Treasurer",
     message:
@@ -90,7 +97,7 @@ const testimonials = [
     image: "joint_tres.jpg",
   },
   {
-    id: 12,
+    id: 13,
     name: "Shruti Suman",
     role: "Head of Event Operations",
     message:
@@ -98,7 +105,7 @@ const testimonials = [
     image: "head_of_event_ops.jpg",
   },
   {
-    id: 13,
+    id: 14,
     name: "Apurva Aryan",
     role: "Head of Creative Production",
     message:
@@ -106,7 +113,7 @@ const testimonials = [
     image: "head_of_creat_prod.jpg",
   },
   {
-    id: 14,
+    id: 15,
     name: "Tanish Gupta",
     role: "Head of Editorial Content",
     message:
@@ -114,15 +121,15 @@ const testimonials = [
     image: "head_of_edit_cont.jpg",
   },
   {
-    id: 15,
+    id: 16,
     name: "Purnendu",
     role: "Head Webmaster",
     message:
-      "Since 2024, when I joined this club, I have learnt a lot from my seniors as well as my fellow members, about collaborating in teams and volunteering, as well as strengthening my own knowledge in the fields of Design and Web Development.",
+      "Since 2025, when I joined this club, I have learnt a lot from my seniors as well as my fellow members, about collaborating in teams and volunteering, as well as strengthening my own knowledge in the fields of Design and Web Development.",
     image: "head_webm.jpg",
   },
   {
-    id: 16,
+    id: 17,
     name: "Kanak Khadikar",
     role: "Head of Sponsorship and Partnerships",
     message:
@@ -130,20 +137,12 @@ const testimonials = [
     image: "head_of_spons_and_part.jpg",
   },
   {
-    id: 17,
+    id: 18,
     name: "Komal Kumari",
     role: "Head of Public Engagement",
     message:
       "As Head of Public Engagement at BIOTS, I am committed to fostering collaboration and meaningful connections. BIOTS represents innovation, growth, and impact, and I am proud to contribute to its mission of empowering individuals and communities to achieve excellence together.",
     image: "head_of_pub_eng.jpg",
-  },
-  {
-    id: 18,
-    name: "Sanjana Kumari",
-    role: "Executive Member",
-    message:
-      "I am an executive member of the Biotechnology Club, where I have actively contributed to organizing various events. Some of the events I helped with include Phir Hera Pheri and Wiki Wars. Being part of the club has given me valuable experience in teamwork, event management, and leadership. It has been a great opportunity to engage with fellow members and promote interest in biotechnology.",
-    image: "exec_mem.jpg",
   },
 ];
 

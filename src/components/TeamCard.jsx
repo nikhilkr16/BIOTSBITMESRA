@@ -1,19 +1,21 @@
-function TeamCardBig({ src, position, name, link }) {
+function TeamCardBig({ src, position, name, link, size = "normal" }) {
+  const sizeClasses = size === "large" ? "max-w-[240px] sm:max-w-xs" : "max-w-[240px] sm:max-w-[280px]";
   return (
-    <div className="tb:w-1/3 xl:w-1/4 border border-neutral-400 rounded-lg group shadow-md">
-      <div className="flex flex-col aspect-[1/1] overflow-hidden"> 
+    <div className={`w-full ${sizeClasses} mx-auto border border-neutral-300 rounded-lg group shadow-md hover:shadow-lg transition-all duration-300 bg-white`}>
+      <div className="flex flex-col aspect-[3/4] overflow-hidden rounded-t-lg"> 
         {/* Image Section */}
         <div className="flex-grow relative">
           <img
             src={src}
-            className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-300 group-hover:blur-sm group-hover:brightness-50"
+            className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-300 group-hover:scale-105"
             alt={name}
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
           {link && (
             <div className="cursor-pointer absolute inset-0 flex justify-center items-center text-white text-4xl opacity-0 group-hover:opacity-100 transition-all duration-300">
               <a href={link} target="_blank" rel="noreferrer">
                 <svg
-                  className="h-12 w-12 text-gray-100"
+                  className="h-10 w-10 text-white drop-shadow-lg"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -30,11 +32,11 @@ function TeamCardBig({ src, position, name, link }) {
           )}
         </div>
       </div>
-      <div className="p-3 border-t rounded-lg">
-        <p className="text-center text-sm ms:text-sm ml:text-base ff:text-base sm:text-lg tb:text-lg lg:text-xl xl:text-2xl font-medium text-neutral-500">
+      <div className="p-3 border-t border-neutral-200 bg-gradient-to-b from-white to-gray-50">
+        <p className="text-center text-xs sm:text-sm font-medium text-neutral-600 mb-1 leading-tight">
           {position}
         </p>
-        <p className="text-center text-base ms:text-sm ml:text-base ff:text-base sm:text-lg tb:text-lg lg:text-xl xl:text-2xl font-semibold">
+        <p className="text-center text-sm sm:text-base font-semibold text-gray-800 leading-tight">
           {name}
         </p>
       </div>
@@ -44,20 +46,21 @@ function TeamCardBig({ src, position, name, link }) {
 
 function TeamCardSmall({ src, position, name, link }) {
   return (
-    <div className="border border-neutral-400 rounded-lg shadow-sm">
-      <div className="flex flex-col aspect-[3/4] overflow-hidden group"> 
+    <div className="w-full border border-neutral-300 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 bg-white group">
+      <div className="flex flex-col aspect-[3/4] overflow-hidden rounded-t-lg"> 
         {/* Image Section */}
         <div className="flex-grow relative">
           <img
             src={src}
-            className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-300 group-hover:blur-sm group-hover:brightness-50"
+            className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-300 group-hover:scale-105"
             alt={name}
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
           {link && (
             <div className="cursor-pointer absolute inset-0 flex justify-center items-center text-white text-4xl opacity-0 group-hover:opacity-100 transition-all duration-300">
               <a href={link} target="_blank" rel="noreferrer">
                 <svg
-                  className="h-12 w-12 text-gray-100"
+                  className="h-6 w-6 text-white drop-shadow-lg"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -74,11 +77,11 @@ function TeamCardSmall({ src, position, name, link }) {
           )}
         </div>
       </div>
-      <div className="p-2 border-t rounded-lg">
-        <p className="text-center text-sm ms:text-sm ml:text-base ff:text-base sm:text-lg tb:text-lg lg:text-xl xl:text-2xl text-neutral-500">
+      <div className="p-2 border-t border-neutral-200 bg-gradient-to-b from-white to-gray-50">
+        <p className="text-center text-xs font-medium text-neutral-600 mb-1 leading-tight">
           {position}
         </p>
-          <p className="text-center text-base ms:text-sm ml:text-base ff:text-base sm:text-lg tb:text-lg lg:text-xl xl:text-2xl font-medium">
+        <p className="text-center text-xs sm:text-sm font-semibold text-gray-800 leading-tight">
           {name}
         </p>
       </div>

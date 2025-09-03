@@ -122,8 +122,14 @@ function Footer() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-
-              <p>dinesh@bitmesra.ac.in</p>
+                <a
+                    href="mailto:dinesh@bitmesra.ac.in"
+                    className="flex gap-2"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <p>dinesh@bitmesra.ac.in</p>
+                </a>
             </div>
           </div>
           <div>
@@ -174,15 +180,23 @@ function Footer() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              <p>btech10582.22@bitmesra.ac.in</p>
+
+                <a
+                    href="mailto:btech10582.22@bitmesra.ac.in"
+                    className="flex gap-2"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <p>btech10582.22@bitmesra.ac.in</p>
+                </a>
             </div>
           </div>
           <div>
-            <p className="font-bold">Ekika Kumar</p>
-            <p>JOINT PRESIDENT</p>
+            <p className="font-bold">Aman Sharma</p>
+            <p>GENERAL SECRETARY</p>
             <p>
               <a
-                href=""
+                href="https://www.linkedin.com/in/aman-sharma-53a72a327"
                 className="flex gap-2"
                 target="_blank"
                 rel="noreferrer"
@@ -214,6 +228,29 @@ function Footer() {
                 <p>LinkedIn</p>
               </a>
             </p>
+            <div className="flex gap-2 ">
+              <svg
+                class="h-4 w-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+                <a
+                    href="mailto:btech10022.23@bitmesra.ac.in"
+                    className="flex gap-2"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <p>btech10022.23@bitmesra.ac.in</p>
+                </a>
+            </div>
           </div>
           <div>
             <p className="font-bold">Prathama Barman</p>
@@ -265,8 +302,14 @@ function Footer() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-
-              <p>prathamabarman@gmail.com</p>
+                <a
+                    href="mailto:prathamabarman@gmail.com"
+                    className="flex gap-2"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <p>prathamabarman@gmail.com</p>
+                </a>
             </div>
           </div>
         </div>
